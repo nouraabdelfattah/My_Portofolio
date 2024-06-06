@@ -1,0 +1,105 @@
+/* ==================================== 
+Table of content:
+=======================================
+1-hero-left-section
+2-Model==pop up 
+3-Media query
+*/
+
+
+.hero{
+    
+    color: white;
+   background-image: url(/public/62ae42f67794530eaa859bb78111deb6.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    padding: 10rem;
+    position: relative;
+    height: 50vh;
+}
+
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%,-50%);
+    background-color: #050036ae;
+}
+.hero .left-section{
+   text-align: center;
+margin-top: 3rem;
+}
+.hero-img{
+    width: 110px;
+    border-radius: 50%;
+    border: 1px solid rgb(10, 1, 43);
+    padding: 0.1rem;
+}
+
+.hero .title{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin: 20px 0;
+}
+.hero .sub-title{
+    font-size: 1.2rem;
+    background: -webkit-linear-gradient(#766af7, #f702d6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.hero .iqons {
+   
+    gap:1.5rem ;
+    font-size: 1.3rem;
+     
+}
+.hero .iqons a{
+    color:rgb(206, 188, 188)
+}
+.hero .iqon:hover{
+    font-size: 1.4rem;
+    transition: 0.3s;
+    color:rgb(236, 232, 232) ;
+    cursor: pointer;
+}
+.hire1-button{
+    background:-webkit-linear-gradient(rgb(136, 0, 255),rgb(36, 2, 146));
+    padding: 10px;
+    width: 100px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.hire2-button{
+border: 2px solid rgb(51, 1, 91);
+    padding: 10px;
+    width: 120px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.hero-button button:hover{
+opacity: 0.6;
+cursor: pointer;
+}
+/* //////// */
+@media (max-width:768px) {
+    .hero-img{
+        width: 90px;
+    }
+    .hero .title{
+        font-size: 1.7rem;
+    }
+    .hero .sub-title{
+        font-size: 1rem;
+    }
+    .hero .iqons{
+        font-size: 1rem;
+    }
+}
