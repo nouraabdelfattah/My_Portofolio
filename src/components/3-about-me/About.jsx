@@ -12,7 +12,7 @@ export default function About() {
       <div className="right-section col-md-8 col-sm-12  ">
         <h2 className='about-title'>ABOUT ME</h2>
         <p className="span"> </p>
-        <p className='about-subtitle'>My Name is Noura Abd Elfattah Awd.I'm a Freelance Full Stack web developer based in Cairo Egypt,I'm very passionate and dedicated to my work. <br/>
+        <p className='about-subtitle'>I'm a Freelance Full Stack web developer based in Cairo Egypt,I'm very passionate and dedicated to my work. <br/>
             <p className='about-table'>Name : Noura Abd Elfattah<br/>
             Phone : 01065523873<br/>
             Age : 24<br/>
