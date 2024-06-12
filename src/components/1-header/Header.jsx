@@ -12,7 +12,6 @@ export default function Header() {
         setShowModel(true)
       }
       }><IoMenu/></button>
-      
       <nav>
         <ul className="flex">
         
@@ -57,7 +56,6 @@ export default function Header() {
             <a href="#contact">Contact</a>
           </li>
        </ul>
-     
            </div>
            
    )}
