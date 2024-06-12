@@ -16,19 +16,19 @@ export default function Header() {
         <ul className="flex">
         
           <li>
-            <Link to={"/"}>Home</Link>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <a href="#about">About</a>
           </li>
           <li>
-            <Link to="/main">Projects</Link>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <Link to="/experience">Experience</Link>
+            <a href="#experience">Experience</a>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
