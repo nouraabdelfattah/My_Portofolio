@@ -26,14 +26,14 @@ window.addEventListener("scroll", () => {
    
     <div id='up' className=''>
       <Header/>
-      <Routes>
-      {<Home />
+    
+      <Home />
           <Hero />
           <About />
         <Main />
           <Experience />
           <Contact />
-      </Routes>
+     
        <a style={{opacity:scroll?1:0, transition:"1s"}} href="#up">
        <button className='scroll-top'><MdKeyboardArrowUp/></button>
        </a>
