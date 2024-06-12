@@ -9,11 +9,11 @@ import Contact from './6-contact/Contact'
 export default function Home() {
   return (
     <div>
-      <Hero/>
-      <About/>
-      <Main/>
-      <Experience/>
-      <Contact/>
+      <div id="home"><Hero/></div>
+      <div id="about"><About/></div>
+      <div id="projects"><Main/></div>
+      <div id="experience"><Experience/></div>
+      <div id="contact"><Contact/></div>
     </div>
   )
 }
