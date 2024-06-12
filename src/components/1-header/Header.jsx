@@ -12,6 +12,7 @@ export default function Header() {
         setShowModel(true)
       }
       }><IoMenu/></button>
+      
       <nav>
         <ul className="flex">
         
