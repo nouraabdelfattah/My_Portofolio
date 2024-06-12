@@ -28,8 +28,8 @@ responsive:"  Responsive"
       imgUrl:"/cloths-shop.PNG",
   projectName:"Cloths shop website",
   Description:" bootstrap ",
-  githubLink:"https://github.com/nouraabdelfattah/bootstrap-website",
-  deployLink:"https://nouraabdelfattah.github.io/bootstrap-website/",
+  githubLink:"https://github.com/nouraabdelfattah/cloths-shop-bootstrap",
+  deployLink:"https://nouraabdelfattah.github.io/cloths-shop-bootstrap/",
   responsive:"Responsive"
   },
   {
