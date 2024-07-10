@@ -1,8 +1,8 @@
 .contact{
    
-    background:-webkit-linear-gradient(top left ,rgb(61, 2, 103),rgb(0, 65, 121)) ;
+    background:-webkit-linear-gradient(top left ,rgb(0, 0, 0), #f6aac0) ;
 border-radius: 2rem;
-padding: 2rem;
+padding: 1rem;
 
 }
 .contact .row{
@@ -17,15 +17,15 @@ padding: 2rem;
    
 }
 .contact-left-section p{
-    color: rgb(185, 198, 210);
+    color: rgb(219, 203, 211);
 }
 .gmail{
     font-size: 1.7rem;
-    background: -webkit-linear-gradient(rgb(4, 139, 172),rgb(79, 14, 125));
+    background: -webkit-linear-gradient( #f6aac0,rgb(0, 0, 0));
 border-radius: 0.5rem;
 text-align: center;
 padding: 0.1rem 0.3rem;
-box-shadow: 1px 1px 5px rgb(0, 0, 47);
+box-shadow: 1px 1px 5px rgb(0, 0, 0);
 margin-right: 10px ;
 }
 .gmail-iqon{
@@ -33,7 +33,7 @@ margin-right: 10px ;
     margin-bottom: 10px;
 }
 .contact-right-section{
-    background: -webkit-linear-gradient(top,rgb(4, 139, 172),rgb(79, 14, 125));
+    background-color: black;
 padding: 1.5rem  1rem;
 
 border-radius: 0.5rem;
@@ -45,18 +45,18 @@ border-radius: 0.5rem;
     border-radius: 0.3rem;
     padding: 0.5rem;
     margin-bottom: 0.5rem;
-    background-color: rgb(1, 1, 50);
+    background-color: rgb(46, 45, 45);
     color: white;
     border: 0;
 }
 .contact-right-section button{
-    background-color:  rgb(1, 1, 50);
+    background-color:   #f6aac0;
     padding: 0.3rem;
     width: 20%;
     text-align: center;
     margin-left: 10%;
     border-radius: 0.4rem;
-    color: rgb(230, 222, 222);
+    color: rgb(0, 0, 0);
     display: block;
 }
 
