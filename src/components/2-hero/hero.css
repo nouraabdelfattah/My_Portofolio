@@ -101,7 +101,7 @@ cursor: pointer;
         flex-direction:  column-reverse;
         row-gap: 5px;
         text-align: center;
-        height: 45vh;
+        height: 40vh;
     }
     .hero .left-section{
         margin: unset;
