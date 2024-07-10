@@ -9,7 +9,7 @@ section.left-section{
     letter-spacing: 0.6px;
     color: #ffffff;
     padding: 0.8rem;
-    border: 1px solid  #4c016f;
+    border: 1px solid  #f6aac0;
     
   }
 section.left-section button{
@@ -33,7 +33,7 @@ section.left-section button:active{
     transition: 0.3s;
 } */
 .card{
-    background-color: rgb(0, 2, 46);
+    background-color: unset;
 border: 0;
 margin: auto;
 margin-top: 2rem;
@@ -42,14 +42,50 @@ text-align: center;
 padding: 0;
 
 }
-
+.projects-card{
+position: relative;
+}
 .card img{
     width: 320px;
-    animation: card 1s;
     border-radius: 8px;
-    box-shadow: 1px 1px 30px  rgb(45, 3, 173);
+    box-shadow: 1px 1px 10px  #f38aa8;
     display: block;
     margin: auto;
+    
+}
+.projects-title{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 75%;
+   
+    background-color: rgba(0, 0, 0, 0.764);
+   
+}
+.projects-title-content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    text-transform: capitalize;
+    
+}
+.projects-card:hover .projects-title,.projects-title-content{
+    opacity: 1;
+    transition-duration: 1s;
+   
+    
+}
+.project-photo:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    opacity: 0.5;
+    visibility: visible;
+   
 }
 
 .main-subtitle{
@@ -61,38 +97,33 @@ padding: 0;
     font-weight: bold;
 }
 .project-details{
-font-size: 1.2rem;
-color: rgb(185, 174, 174);
+font-size: 0.9rem;
+color: rgb(255, 255, 255);
 }
 .project-subDetails{
-    color: rgb(181, 178, 191);
+    color: rgb(255, 255, 255);
 }
 .main-links{
     margin: auto;
     text-align: center;
-    margin-top: 2rem;
 }
 .main-links a{
     width: 30px;
-    
-    color: #ded7d7;
-    font-size: 1.1rem;
+    font-weight: bold;
+    color:#f38aa8;
+    font-size: 0.9rem;
     margin: auto;
     text-align: center;
-    padding: 0.5rem;
+    
 
-    margin-left: 15px;
-    background: -webkit-linear-gradient(#4f3dc8, #6b01dc);
+    
+   
    border-radius: 10px;
 }
 .main-links a:hover{
     opacity: 0.7;
 }
-  .main-links button:hover{
-    color: rgb(210, 188, 188);
-    transform: scale(1.1);
-    transition: 0.5s;
-  }
+
   
   @media (max-width:768px) {
     .main-subtitle{
