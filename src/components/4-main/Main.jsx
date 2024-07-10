@@ -9,7 +9,7 @@ const projects= [
   projectName:"Gemini-Clone AI",
   imgUrl:"/gemini clone.PNG",
   Description:" React JS and API ",
-  githubLink:"https://github.com/nouraabdelfattah/gemini-clone-Reactjs-API",
+  githubLink:"https://github.com/nouraabdelfattah/gemini-clone",
   deployLink:"https://gemini-clone-topaz.vercel.app/",
   responsive:"Responsive"
   },
@@ -121,6 +121,7 @@ export default function Main() {
   return (
     <main className="container"> 
     <div className="main-title">Projects</div>
+    <span className="sub-span"></span>
       <section className="left-section row">
       <button onClick={()=>{
         setState("all")
@@ -152,19 +153,21 @@ export default function Main() {
  <section className="main-section row">
        {projectsArr.map((item)=>{
         return(
-          <div key={item.id} className="card col-md-4 col-sm-12">
+          <div key={item.id} className="card col-md-4 col-sm-12 projects-card">
           <div className="project-photo ">
              <img className='' src={item.imgUrl}/>
           </div>
+          <h2 className='main-subtitle'>{item.projectName}</h2>
           <div className="projects-title">
-            <h2 className='main-subtitle'>{item.projectName}</h2>
-           <p className="project-details">{item.Description}</p>
-           <p className="project-subDetails">{item.responsive}</p>
-               
-                <div className=" main-links">
-    <a href={item.deployLink} className="">Deploy&nbsp; <FaLink/></a>
+            
+          <div className="projects-title-content">
+          <p className="project-details">{item.Description}</p>
+          <p className="project-subDetails">{item.responsive}</p>
+          <div className=" main-links">
+    <a href={item.deployLink} className="">Deploy&nbsp; <FaLink/> &nbsp; &nbsp;</a>
     <a  href={item.githubLink} className="">GitHub&nbsp;<FaGithub/></a>
     </div>
+          </div>
            
           </div>
           </div>
@@ -172,6 +175,8 @@ export default function Main() {
         )
        })}
       </section> 
+      <hr></hr>
     </main>
+    
   );
 }
