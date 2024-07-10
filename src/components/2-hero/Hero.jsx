@@ -6,17 +6,14 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion"
+import Header from "../1-header/Header";
 export default function Hero() {
   return (
     <section className="hero" id="#home">
+      <Header/>
       <div className="hero-content">
       <div className="left-section">
-        <motion.img
-        initial={{scale:0}}
-        animate={{scale:1}}
-        transition={{duration:1}}
-        className="hero-img" src="/3c91b06d1f551e3b99b705b014de4e2d.jpg"/>
-<h1 className="title">Noura Abd Elfattah</h1>
+<h1 className="title">Hello,I'm</h1>
 <p className="sub-title">
   <span></span>
   <TypeAnimation
@@ -43,6 +40,13 @@ export default function Hero() {
 </div>
 
 
+      </div>
+      <div className="right-section-hero">
+      <motion.img
+        initial={{scale:0}}
+        animate={{scale:1}}
+        transition={{duration:1}}
+        className="hero-img" src="/hero-image.png"/>
       </div>
       </div>
     </section>
