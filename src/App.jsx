@@ -27,7 +27,7 @@ window.addEventListener("scroll", () => {
     <BrowserRouter>
     <div id='up' className=''>
       
-      <Header/>
+      
       <Routes>
       <Route path="/" element={<Home />} />
           <Route path="/hero" element={<Hero />} />
