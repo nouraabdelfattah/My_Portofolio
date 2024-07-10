@@ -97,15 +97,20 @@ cursor: pointer;
 }
 /* //////// */
 @media (max-width:768px) {
+    .hero{
+        height: 55vh;
+        
+    }
     .hero-content{
         flex-direction:  column-reverse;
         row-gap: 5px;
         text-align: center;
-        height: 40vh;
+        height: auto;
     }
     .hero .left-section{
         margin: unset;
         width: 100%;
+        margin-top: 33%;
     }
     .hero .right-section-hero{
         width: 100%;
@@ -114,7 +119,7 @@ cursor: pointer;
     }
     .hero-img{
         width: 150px;
-        top: 60%;
+        top: 50%;
    left: 30%;
     }
     .hero .title{
