@@ -1,7 +1,10 @@
 
 .about{
     margin-top: 8rem;
-    margin-bottom: 150px;
+    margin-bottom: 90px;
+    
+    border-radius: 10px;
+    padding: 10px;
 }
 .about .row{
  gap: 2rem;
@@ -10,32 +13,32 @@
 .about-img{
     width: 350px;
     border-radius: 8px;
-    box-shadow: 15px 15px  rgb(56, 1, 158);
+    box-shadow: 15px 15px  #c25f7b;
     display: block;
 }
 .right-section{
     
-    color: white;
+    color: rgb(0, 0, 0);
   
 }
 .hero-button a{
-color: white;
+color: rgb(255, 255, 255);
 }
 .about-title{
-    background: -webkit-linear-gradient(#4f3dc8, #6b01dc);
+    background: -webkit-linear-gradient(black, #f6aac0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .about-subtitle{
-    color: rgb(202, 201, 201);
+    color: rgb(231, 223, 223);
 }
 .span{
     width: 80px;
     height: 1px;
-    background-color: rgb(185, 184, 252);
+    background-color: #d0c1c6;
 }
 .about-table{
-    border: 2px solid rgb(3, 12, 150);
+    border: 2px solid #fa9fb9;;
     margin-top: 1.2rem;
     text-transform: capitalize;
     padding: 1rem;
@@ -54,6 +57,7 @@ color: white;
     }
     .about-title{
         text-align: center;
+        margin-top: 10px;
     }
     .span{
         
