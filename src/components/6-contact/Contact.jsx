@@ -20,7 +20,7 @@ export default function Contact() {
 <div className="contactMe row">
      <div className="contact-left-section col-md-5 col-sm-12">
       <h3>Drop Me a Message</h3>
-      <p>I hope to hear your opinion and I will happy to read your message</p>
+      <p>I hope to hear your opinion and I will be happy to read your message</p>
      <span className="gmail"><CgMail className="gmail-iqon"/></span><span className="gmail-p">nouraabdelfattah1@gmail.com</span><br/>
      <span className="gmail"><MdLocationOn className="gmail-iqon"/></span><span className="gmail-p">Cairo, Egypt</span>
      </div>
