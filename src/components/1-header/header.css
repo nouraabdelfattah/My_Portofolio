@@ -10,9 +10,7 @@ Table of content:
 /* =========================
 1-Header-design
 =============================*/
-header{
-    margin-top: 1.2rem;
-}
+
 header ul.flex{
     gap: 16px;
     height: 50px;
@@ -20,7 +18,7 @@ header ul.flex{
 
 }
 header ul li a{
-    color: rgb(244,244,245);
+    color: rgb(255, 255, 255);
     opacity: 0.9;
     font-size: 0.88rem;
     font-weight: 500;
@@ -53,7 +51,7 @@ header .fixed{
 position: fixed;
 inset: 0;
 z-index: 10;
-background-color: rgba(10, 10, 23, 0.538);
+background-color: rgba(0, 0, 0, 0.538);
 backdrop-filter: blur(2px);
 }
 @keyframes modelanimation {
@@ -74,7 +72,7 @@ header .fixed .model{
     margin-top: 2rem;
     border-radius: 1rem;
     padding: 1rem 2rem;
-    background-color: rgb(6, 6, 39);
+    background-color:#000000;
     animation: modelanimation 0.7s 1 ;
 }
 header .fixed .model li{
@@ -99,7 +97,7 @@ header .menu{
    color: rgb(198, 189, 189);
    border-radius: 50%;
    font-size: 2rem;
-   background-color: rgb(4, 4, 50);
+   background-color:#000000;
    height: 2.4rem;
    width: 2.4rem;
 cursor: pointer;
@@ -109,14 +107,14 @@ margin-left: 5%;
 margin-bottom: 5px;
 }
 .close{
-    color: rgb(198, 189, 189);
+    color:#f99bcc;
     font-size: 2rem;
  cursor: pointer; 
  margin-bottom: -1.3rem;
 }
 .close:hover{
     font-size: 2.2rem;
-    color: crimson;
+    color:#f99bcc;
     transition: 0.3s;
     rotate: 180deg;
 }
