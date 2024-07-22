@@ -36,9 +36,7 @@ button{
 .main-title{
   margin-top: 2rem;
     font-size: 2rem;
-    background: -webkit-linear-gradient(black, #f6aac0);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #f6aac0;
    margin-bottom: 1.5rem;
     font-weight: bold;
     text-align: center;
