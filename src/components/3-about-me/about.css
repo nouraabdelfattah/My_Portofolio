@@ -25,9 +25,8 @@
 color: rgb(255, 255, 255);
 }
 .about-title{
-    background: -webkit-linear-gradient(black, #f6aac0);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #f6aac0;
+   
 }
 .about-subtitle{
     color: rgb(231, 223, 223);
