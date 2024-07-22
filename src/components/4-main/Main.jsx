@@ -18,8 +18,8 @@ const projects= [
 projectName:"saba-shopping-cart",
 imgUrl:"/saba-shopping-cart.PNG",
 Description:"JavaScript ",
-githubLink:"https://github.com/nouraabdelfattah/saba-shopping-cart-JavaScript",
-deployLink:"https://nouraabdelfattah.github.io/saba-shopping-cart-JavaScript/",
+githubLink:"https://github.com/nouraabdelfattah/saba-shoppingcart-javaScript",
+deployLink:"https://nouraabdelfattah.github.io/saba-shoppingcart-javaScript/",
 responsive:"  Responsive"
 
 } ,
@@ -94,8 +94,8 @@ responsive:"  Responsive"
   projectName:"saba-shopping-cart",
   imgUrl:"/saba-shopping-cart.PNG",
   Description:"JavaScript ",
-  githubLink:"https://github.com/nouraabdelfattah/saba-shopping-cart-JavaScript",
-  deployLink:"https://nouraabdelfattah.github.io/saba-shopping-cart-JavaScript/",
+  githubLink:"https://github.com/nouraabdelfattah/saba-shoppingcart-javaScript",
+  deployLink:"https://nouraabdelfattah.github.io/saba-shoppingcart-javaScript/",
   responsive:"  Responsive"
   
   }    
