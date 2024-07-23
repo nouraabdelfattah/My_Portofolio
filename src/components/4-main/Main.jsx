@@ -42,8 +42,21 @@ responsive:"  Responsive"
   responsive:" Not responsive"
   
   },
-  {
+   {
       id:5,
+  projectName:"Solar Landing Page",
+  imgUrl:"/solar.PNG",
+  Description:" html , css  ",
+  githubLink:"https://github.com/nouraabdelfattah/solar-landing-page",
+  deployLink:"https://nouraabdelfattah.github.io/solar-landing-page/",
+  responsive:" Not responsive"
+  
+  }
+  ,
+  
+  
+  {
+      id:6,
   projectName:"Book Store",
   imgUrl:"/Book-store.PNG",
   Description:" html , css  ",
@@ -55,7 +68,7 @@ responsive:"  Responsive"
   ]
   const htmlProjects=[
       {
-          id:5,
+          id:6,
       projectName:"Book Store",
       imgUrl:"/Book-store.PNG",
       Description:" html , css  ",
@@ -63,7 +76,18 @@ responsive:"  Responsive"
       deployLink:"https://nouraabdelfattah.github.io/book-store-html-css/",
       responsive:" Not responsive"
       
-      }
+      },
+     {
+      id:5,
+  projectName:"Solar Landing Page",
+  imgUrl:"/solar.PNG",
+  Description:" html , css  ",
+  githubLink:"https://github.com/nouraabdelfattah/solar-landing-page",
+  deployLink:"https://nouraabdelfattah.github.io/solar-landing-page/",
+  responsive:" Not responsive"
+  
+  }
+    
   ]
   const html5Projects=[
       {
