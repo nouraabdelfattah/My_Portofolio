@@ -34,12 +34,12 @@ responsive:"  Responsive"
   },
   {
       id:4,
-  projectName:"Rose Website",
-  imgUrl:"/Rose-Flower-Shop.PNG",
-  Description:"html5 , css3  ",
-  githubLink:"https://github.com/nouraabdelfattah/Rose-flower-shop-html5-css3",
-  deployLink:"https://nouraabdelfattah.github.io/Rose-flower-shop-html5-css3/",
-  responsive:" Not responsive"
+  projectName:"Interior Design",
+  imgUrl:"/interior.PNG",
+  Description:"html , css  ",
+  githubLink:"https://github.com/nouraabdelfattah/interior-design",
+  deployLink:"https://nouraabdelfattah.github.io/interior-design/",
+  responsive:"Responsive"
   
   },
    {
@@ -67,6 +67,16 @@ responsive:"  Responsive"
   }
   ]
   const htmlProjects=[
+      {
+      id:4,
+  projectName:"Interior Design",
+  imgUrl:"/interior.PNG",
+  Description:"html , css  ",
+  githubLink:"https://github.com/nouraabdelfattah/interior-design",
+  deployLink:"https://nouraabdelfattah.github.io/interior-design/",
+  responsive:"Responsive"
+  
+  },
       {
           id:6,
       projectName:"Book Store",
