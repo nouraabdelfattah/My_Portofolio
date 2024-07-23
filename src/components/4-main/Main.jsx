@@ -49,7 +49,7 @@ responsive:"  Responsive"
   Description:" html , css  ",
   githubLink:"https://github.com/nouraabdelfattah/solar-landing-page",
   deployLink:"https://nouraabdelfattah.github.io/solar-landing-page/",
-  responsive:" Not responsive"
+  responsive:"Responsive"
   
   }
   ,
@@ -84,7 +84,7 @@ responsive:"  Responsive"
   Description:" html , css  ",
   githubLink:"https://github.com/nouraabdelfattah/solar-landing-page",
   deployLink:"https://nouraabdelfattah.github.io/solar-landing-page/",
-  responsive:" Not responsive"
+  responsive:"Responsive"
   
   }
     
