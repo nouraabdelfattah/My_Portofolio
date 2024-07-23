@@ -27,7 +27,7 @@ responsive:"  Responsive"
       id:3,
       imgUrl:"/cloths-shop.PNG",
   projectName:"Cloths shop website",
-  Description:" bootstrap ",
+  Description:" Bootstrap ",
   githubLink:"https://github.com/nouraabdelfattah/cloths-shop-bootstrap",
   deployLink:"https://nouraabdelfattah.github.io/cloths-shop-bootstrap/",
   responsive:"Responsive"
@@ -36,7 +36,7 @@ responsive:"  Responsive"
       id:4,
   projectName:"Interior Design",
   imgUrl:"/interior.PNG",
-  Description:"html , css  ",
+  Description:"Bootstrap",
   githubLink:"https://github.com/nouraabdelfattah/interior-design",
   deployLink:"https://nouraabdelfattah.github.io/interior-design/",
   responsive:"Responsive"
@@ -67,16 +67,7 @@ responsive:"  Responsive"
   }
   ]
   const htmlProjects=[
-      {
-      id:4,
-  projectName:"Interior Design",
-  imgUrl:"/interior.PNG",
-  Description:"html , css  ",
-  githubLink:"https://github.com/nouraabdelfattah/interior-design",
-  deployLink:"https://nouraabdelfattah.github.io/interior-design/",
-  responsive:"Responsive"
-  
-  },
+   
       {
           id:6,
       projectName:"Book Store",
@@ -143,7 +134,17 @@ responsive:"  Responsive"
       githubLink:"https://github.com/nouraabdelfattah/bootstrap-website",
       deployLink:"https://nouraabdelfattah.github.io/bootstrap-website/",
       responsive:"Responsive"
-      }    
+      }  ,  
+       {
+      id:4,
+  projectName:"Interior Design",
+  imgUrl:"/interior.PNG",
+  Description:"Bootstrap",
+  githubLink:"https://github.com/nouraabdelfattah/interior-design",
+  deployLink:"https://nouraabdelfattah.github.io/interior-design/",
+  responsive:"Responsive"
+  
+  }
   ]
   
   
