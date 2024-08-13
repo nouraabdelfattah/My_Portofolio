@@ -8,7 +8,7 @@ const projects= [
   {
       "id":1,
   projectName:"E-Commerce cloth shop",
-  imgUrl:"/ ecommerce.PNG",
+  imgUrl:"/ecommerce.PNG",
   Description:" React JS and API ",
   githubLink:"https://github.com/nouraabdelfattah/e-commerce",
   deployLink:"https://e-commerce-beta-seven-87.vercel.app/",
