@@ -4,8 +4,18 @@ import { FaGithub } from "react-icons/fa";
 import { useState } from "react";
 
 const projects= [
+ 
   {
       "id":1,
+  projectName:"E-Commerce cloth shop",
+  imgUrl:"/ ecommerce.PNG",
+  Description:" React JS and API ",
+  githubLink:"https://github.com/nouraabdelfattah/e-commerce",
+  deployLink:"https://e-commerce-beta-seven-87.vercel.app/",
+  responsive:"Responsive"
+  },
+  {
+      "id":2,
   projectName:"Gemini-Clone AI",
   imgUrl:"/gemini clone.PNG",
   Description:" React JS and API ",
@@ -14,7 +24,7 @@ const projects= [
   responsive:"Responsive"
   },
   {
-    id:2,
+    id:3,
 projectName:"saba-shopping-cart",
 imgUrl:"/saba-shopping-cart.PNG",
 Description:"JavaScript ",
@@ -24,7 +34,7 @@ responsive:"  Responsive"
 
 } ,
   {
-      id:3,
+      id:4,
       imgUrl:"/cloths-shop.PNG",
   projectName:"Cloths shop website",
   Description:" Bootstrap ",
@@ -33,7 +43,7 @@ responsive:"  Responsive"
   responsive:"Responsive"
   },
   {
-      id:4,
+      id:5,
   projectName:"Interior Design",
   imgUrl:"/interior.PNG",
   Description:"Bootstrap",
@@ -43,7 +53,7 @@ responsive:"  Responsive"
   
   },
    {
-      id:5,
+      id:6,
   projectName:"Solar Landing Page",
   imgUrl:"/solar.PNG",
   Description:" html , css  ",
@@ -52,19 +62,7 @@ responsive:"  Responsive"
   responsive:"Responsive"
   
   }
-  ,
   
-  
-  {
-      id:6,
-  projectName:"Book Store",
-  imgUrl:"/Book-store.PNG",
-  Description:" html , css  ",
-  githubLink:"https://github.com/nouraabdelfattah/book-store-html-css",
-  deployLink:"https://nouraabdelfattah.github.io/book-store-html-css/",
-  responsive:" Not responsive"
-  
-  }
   ]
   const htmlProjects=[
    
@@ -103,8 +101,17 @@ responsive:"  Responsive"
       }
   ]
   const ReactProjects=[
+     {
+      "id":1,
+  projectName:"E-Commerce cloth shop",
+  imgUrl:"/ ecommerce.PNG",
+  Description:" React JS and API ",
+  githubLink:"https://github.com/nouraabdelfattah/e-commerce",
+  deployLink:"https://e-commerce-beta-seven-87.vercel.app/",
+  responsive:"Responsive"
+  },
       {
-          "id":1,
+          "id":2,
       projectName:"Gemini-Clone AI",
       imgUrl:"/gemini clone.PNG",
       Description:" React JS and API ",
