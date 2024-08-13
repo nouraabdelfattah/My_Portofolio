@@ -104,7 +104,7 @@ responsive:"  Responsive"
      {
       "id":1,
   projectName:"E-Commerce cloth shop",
-  imgUrl:"/ ecommerce.PNG",
+  imgUrl:"/ecommerce.PNG",
   Description:" React JS and API ",
   githubLink:"https://github.com/nouraabdelfattah/e-commerce",
   deployLink:"https://e-commerce-beta-seven-87.vercel.app/",
@@ -169,26 +169,30 @@ export default function Main() {
         setState("all")
         setProjectsArr(projects)
       }} className={state=="all"?"active":""}>All Projects</button>
-        <button onClick={()=>{
-          setState("html")
-          setProjectsArr(htmlProjects)
-        }} className={state=="html"?"active":""}>Html & Css</button>
-        <button onClick={()=>{
-          setState("html5")
-          setProjectsArr(html5Projects)
-        }} className={state=="html5"?"active":""}>Html5 & Css3</button>
-        <button onClick={()=>{
-          setState("Bootstrap")
-          setProjectsArr(bootstrapProjects)
-        }} className={state=="Bootstrap"?"active":""}>Bootstrap</button>
-        <button onClick={()=>{
-          setState("JavaScript")
-          setProjectsArr(JavaScriptProjects)
-        }} className={state=="JavaScript"?"active":""}>JavaScript</button>
+      
         <button onClick={()=>{
           setState("React")
           setProjectsArr(ReactProjects)
         }} className={state=="React"?"active":""}>React</button>
+        <button onClick={()=>{
+          setState("JavaScript")
+          setProjectsArr(JavaScriptProjects)
+        }} className={state=="JavaScript"?"active":""}>JavaScript</button>
+          <button onClick={()=>{
+          setState("Bootstrap")
+          setProjectsArr(bootstrapProjects)
+        }} className={state=="Bootstrap"?"active":""}>Bootstrap</button>
+          <button onClick={()=>{
+          setState("html5")
+          setProjectsArr(html5Projects)
+        }} className={state=="html5"?"active":""}>Html5 & Css3</button>
+         <button onClick={()=>{
+          setState("html")
+          setProjectsArr(htmlProjects)
+        }} className={state=="html"?"active":""}>Html & Css</button>
+     
+     
+        
         
       </section>
 
