@@ -35,8 +35,8 @@ responsive:"  Responsive"
 } ,
   {
       id:4,
-      imgUrl:"/clothes-shop.PNG",
-  projectName:"Cloths shop website",
+      imgUrl:"/cloths-shop.PNG",
+  projectName:"Clothes shop website",
   Description:" Bootstrap ",
   githubLink:"https://github.com/nouraabdelfattah/cloths-shop-bootstrap",
   deployLink:"https://nouraabdelfattah.github.io/cloths-shop-bootstrap/",
@@ -135,8 +135,8 @@ responsive:"  Responsive"
   const bootstrapProjects=[
       {
           id:3,
-          imgUrl:"/clothes-shop.PNG",
-      projectName:"Cloths shop website",
+          imgUrl:"/cloths-shop.PNG",
+      projectName:"Clothes shop website",
       Description:" bootstrap ",
       githubLink:"https://github.com/nouraabdelfattah/bootstrap-website",
       deployLink:"https://nouraabdelfattah.github.io/bootstrap-website/",
