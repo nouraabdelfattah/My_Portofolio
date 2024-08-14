@@ -7,7 +7,7 @@ const projects= [
  
   {
       "id":1,
-  projectName:"E-Commerce cloth shop",
+  projectName:"E-Commerce clothes shop",
   imgUrl:"/ecommerce.PNG",
   Description:" React JS and API ",
   githubLink:"https://github.com/nouraabdelfattah/e-commerce",
@@ -35,7 +35,7 @@ responsive:"  Responsive"
 } ,
   {
       id:4,
-      imgUrl:"/cloths-shop.PNG",
+      imgUrl:"/clothes-shop.PNG",
   projectName:"Cloths shop website",
   Description:" Bootstrap ",
   githubLink:"https://github.com/nouraabdelfattah/cloths-shop-bootstrap",
@@ -103,7 +103,7 @@ responsive:"  Responsive"
   const ReactProjects=[
      {
       "id":1,
-  projectName:"E-Commerce cloth shop",
+  projectName:"E-Commerce clothes shop",
   imgUrl:"/ecommerce.PNG",
   Description:" React JS and API ",
   githubLink:"https://github.com/nouraabdelfattah/e-commerce",
@@ -135,7 +135,7 @@ responsive:"  Responsive"
   const bootstrapProjects=[
       {
           id:3,
-          imgUrl:"/cloths-shop.PNG",
+          imgUrl:"/clothes-shop.PNG",
       projectName:"Cloths shop website",
       Description:" bootstrap ",
       githubLink:"https://github.com/nouraabdelfattah/bootstrap-website",
