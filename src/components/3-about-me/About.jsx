@@ -21,7 +21,7 @@ export default function About() {
             Experience : junior
             <div className="hero-button">
 <a href="#contact"><button className="hire1-button">Hire Me</button></a>
-<a href="/Noura_Abd Elfattah_CV.pdf"><button className="hire2-button">Download CV</button></a>
+<a href="/MyCV.pdf"><button className="hire2-button">Download CV</button></a>
 </div>
             </p>
         </p>
