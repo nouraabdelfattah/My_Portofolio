@@ -72,7 +72,7 @@ export default function Main() {
  
  const [projectsArr,setProjectsArr]=useState(projects)
   return (
-    <main className="container  main"> 
+    <main className="container "> 
     <div className="main-title">Top Projects</div>
     <span className="sub-span"></span>
      
