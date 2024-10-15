@@ -1,4 +1,5 @@
 .experience{
+    margin-top: 10rem;
     margin-bottom: 4rem;
 }
 
@@ -9,22 +10,22 @@
      
 }
 .html{
-    color: #f8eaea;
+    color: #006b17;
 }
 .css{
-    color: #f8eaea;
+   color: #006b17;
 }
 .react{
-    color: #f8eaea;
+   color: #006b17;
 }
 .js{
-    color: #f8eaea;
+    color: #006b17;
 }
 .node{
-    color: #f8eaea;
+   color: #006b17;
 }
 .iqon-span{
-    color: rgb(225, 204, 228);
+    color:  #006b17;
     font-size: 1rem;
     display: block;
 }
