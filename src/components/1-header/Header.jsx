@@ -16,7 +16,7 @@ export default function Header() {
       <ul className="flex">
       
         <li>
-          <a href="#home">Home</a>
+          <Link to={'/'}><a href="#home">Home</a></Link>
         </li>
         <li>
           <a href="#about">About</a>
