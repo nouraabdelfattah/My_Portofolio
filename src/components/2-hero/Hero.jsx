@@ -46,7 +46,7 @@ export default function Hero() {
         initial={{scale:0}}
         animate={{scale:1}}
         transition={{duration:1}}
-        className="hero-img" src="/hero-image.png"/>
+        className="hero-img p-2 border bg-white" src="/download (9).jpeg"/>
       </div>
       </div>
     </section>
