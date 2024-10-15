@@ -7,7 +7,7 @@ export default function About() {
         
         <div className=" row ">
       <div className="left-section col-md-3 col-sm-12 ">
-         <img className='about-img' src='/0cd5919e4c6b92f040a4fa3829a0e864.jpg'/>
+         <img className='about-img' src='/download (10).jpeg'/>
       </div>
       <div className="right-section col-md-8 col-sm-12  ">
         <h2 className='about-title'>ABOUT ME</h2>
