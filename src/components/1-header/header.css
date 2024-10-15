@@ -1,0 +1,141 @@
+/* ==================================== 
+Table of content:
+=======================================
+1-Header-design
+2-Model==pop up 
+3-Media query
+*/
+
+
+/* =========================
+1-Header-design
+=============================*/
+
+header ul.flex{
+    gap: 16px;
+    height: 50px;
+    padding:0 2.4rem;  
+
+}
+header ul li a{
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+    font-size: 0.88rem;
+    font-weight: 500;
+}
+header ul li a:hover{
+    color:  #bffcb5;
+    opacity: 1;
+    font-size: 0.9rem;  
+}
+header nav{
+   
+    padding: 0.6rem  1.6rem 0 1.6rem;
+   
+    
+   
+}
+header .menu{
+    display: none;
+    margin-right: auto;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+
+/* =========================
+2-Model==pop up
+=============================*/
+
+header .fixed{
+
+position: fixed;
+inset: 0;
+z-index: 10;
+background-color: rgba(0, 0, 0, 0.538);
+backdrop-filter: blur(2px);
+}
+@keyframes modelanimation {
+    0%{
+        scale: 0;
+    }
+    60%{
+        scale: 1.2;
+    }
+    100%
+    {
+scale:1 ;
+    }
+}
+header .fixed .model{
+    width: 85%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color:#a4bba6;
+    animation: modelanimation 0.7s 1 ;
+}
+header .fixed .model li{
+    border-bottom:1px solid rgba(63,63,70,0.4);
+    padding-bottom: 0.77rem;
+    padding-top: 0.5rem;
+}
+header .fixed .model li:last-child{
+    border-bottom: none;
+    padding-bottom:0;
+    padding-top: 0.2rem;
+}
+header .fixed .model li:first-child{
+text-align: right;
+border-bottom: none;
+}
+header .fixed .model li a{
+    font-size: 1rem;
+}
+header .menu{
+    line-height: 50%;
+   color: rgb(198, 189, 189);
+   border-radius: 50%;
+   font-size: 2rem;
+   background-color:#f4fff4;
+   height: 2.4rem;
+   width: 2.4rem;
+cursor: pointer;
+border: 1px solid rgba(163, 120, 242, 0.229);
+text-align: center;
+margin-left: 5%;
+
+margin-top: 0.5rem;
+}
+.close{
+    color:#741300;
+    font-size: 2rem;
+ cursor: pointer; 
+ margin-bottom: -1.3rem;
+}
+.close:hover{
+    font-size: 2.2rem;
+    color:#00711a;
+    transition: 0.3s;
+    rotate: 180deg;
+}
+header .menu:hover{
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(239, 145, 134, 0.715);
+   transition: 0.2s;
+}
+header button:active{
+    scale: 0.9;
+}
+/* /////////////////////////////////////// */
+/* =========================
+3-Media query
+=============================*/
+@media(max-width:700px) {
+    header nav{
+        display: none;
+    }
+    header .menu{
+        display: block;
+    }
+}
