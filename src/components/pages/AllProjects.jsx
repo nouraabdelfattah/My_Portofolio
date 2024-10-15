@@ -243,7 +243,7 @@ export default function Main() {
         )
        })}
       </section> 
-      <hr></hr>
+   
     </main>
     
   );
