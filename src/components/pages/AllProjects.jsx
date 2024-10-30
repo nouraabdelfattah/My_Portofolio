@@ -136,7 +136,7 @@ responsive:" Not responsive"
       projectName:"Gemini-Clone AI",
       imgUrl:"/gemini clone.PNG",
       Description:" React JS and API ",
-      githubLink:"https://github.com/nouraabdelfattah/gemini-clone",
+      githubLink:"https://github.com/nouraabdelfattah/gemini-clone-Reactjs-API",
       deployLink:"https://gemini-clone-topaz.vercel.app/",
       responsive:"Responsive"
       }    
