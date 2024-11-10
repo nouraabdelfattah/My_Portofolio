@@ -15,7 +15,7 @@ export default function About() {
     <div className="right-section  ">
         <h2 className='about-title'>Noura Abd Elfattah Awd </h2> 
         <p className="span"> </p>
-        <p className='about-subtitle'>    Hello ! I'm a Front End web developer based in Cairo Egypt,I'm very passionate and dedicated to my work. <br/>
+        <p className='about-subtitle'>    Hello ! I'm a Full stack web developer based in Cairo Egypt,I'm very passionate and dedicated to my work. <br/>
             <p className='about-table'>
             Phone :+201065523873<br/>
             Age : 24<br/>
