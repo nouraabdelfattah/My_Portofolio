@@ -2,7 +2,7 @@
  .allprojects{
     margin: auto;
     text-align: center;
-    color: #fcc45cef;
+    color:#ffd78bef;
     text-decoration: underline;
     margin-top: 10px;
     font-size: large;
@@ -107,7 +107,7 @@ color: rgb(255, 255, 255);
 .main-links a{
     width: 30px;
     font-weight: bold;
-    color:#fcc45cef;
+    color:#ffd78bef;
     font-size: 0.9rem;
     margin: auto;
     text-align: center;
@@ -226,6 +226,8 @@ color: rgb(255, 255, 255);
     .project-subDetails{
         font-size: 1rem;
     }
-    
+    .allprojects{
+        font-size: 1rem;
+    }
   }
   
