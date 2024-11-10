@@ -75,7 +75,7 @@ color: rgb(255, 255, 255);
      
 }
 .hero .iqons a{
-    color:#fcc45c
+    color:#ffd78bef
 }
 .hero .iqon:hover{
     font-size: 1.4rem;
@@ -207,7 +207,7 @@ color: rgb(255, 255, 255);
     .hero-img{
         width: 150px;
         top: 40%;
-   left: 27%;
+   left: 30%;
   
   
     }
