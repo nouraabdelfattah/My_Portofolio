@@ -15,11 +15,13 @@ export default function About() {
     <div className="right-section  ">
         <h2 className='about-title'>Noura Abd Elfattah Awd </h2> 
         <p className="span"> </p>
-        <p className='about-subtitle'> Hello! I'm  a web developer with a background in engineering and a passion for creating dynamic, user-friendly web applications. My journey in tech began after earning my degree in Telecommunications Engineering from Al-Azhar University, where I discovered my love for web development. Since then, I've honed my skills in JavaScript, React, and Node Js, building diverse projects, including e-commerce platforms and interactive web applications.
-
- I am always eager to learn, recently diving into tools  and expanding my knowledge in the ever-evolving field of front-end development.
-
- Please explore my portfolio to see my work and connect with me – I’m excited about new opportunities and collaborations!
+        <p className='about-subtitle'>    Hello ! I'm a Front End web developer based in Cairo Egypt,I'm very passionate and dedicated to my work. <br/>
+            <p className='about-table'>
+            Phone :+201065523873<br/>
+            Age : 24<br/>
+            Graduation : graduated from fucaulty of engineering communication and electronics department<br/>
+            year of graduation : 2022<br/>
+            Experience : junior
             <div className="hero-button">
 <a href="#contact"><button className="hire1-button">Hire Me</button></a>
 <a href="/MyCV.pdf"><button className="hire2-button">Download CV</button></a>
