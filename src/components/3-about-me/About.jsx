@@ -11,7 +11,7 @@ export default function About() {
       <div className='about-circle'></div>
          
       </div>
-    <div className='container  col-md-6 col-sm-12 '>
+    <div className='container  col-md-7 col-sm-12 '>
     <div className="right-section  ">
         <h2 className='about-title'>Noura Abd Elfattah Awd </h2> 
         <p className="span"> </p>
