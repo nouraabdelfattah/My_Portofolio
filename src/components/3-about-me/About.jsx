@@ -13,7 +13,7 @@ export default function About() {
       </div>
     <div className='container  col-md-7 col-sm-12 '>
     <div className="right-section  ">
-        <h2 className='about-title'>Noura Abd Elfattah Awd </h2>
+        <h2 className='about-title'>Noura Abd Elfattah Awd </h2> 
         <p className="span"> </p>
         <p className='about-subtitle'> Hello! I'm  a web developer with a background in engineering and a passion for creating dynamic, user-friendly web applications. My journey in tech began after earning my degree in Telecommunications Engineering from Al-Azhar University, where I discovered my love for web development. Since then, I've honed my skills in JavaScript, React, and Node Js, building diverse projects, including e-commerce platforms and interactive web applications.
 
