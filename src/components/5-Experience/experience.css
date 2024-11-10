@@ -1,0 +1,31 @@
+.experience{
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+}
+
+.exp-iqons div{
+     margin: auto;
+     font-size: 3rem;
+     text-align: center;
+     
+}
+.html{
+    color: #d7d7d7;
+}
+.css{
+   color: #d7d7d7;
+}
+.react{
+   color: #d7d7d7;
+}
+.js{
+    color: #d7d7d7;
+}
+.node{
+   color: #d7d7d7;
+}
+.iqon-span{
+    color:  #fcc45c;
+    font-size: 1rem;
+    display: block;
+}
