@@ -252,10 +252,9 @@ border: 2px solid #fcc45c;
     }
     
     .right-section{
-        
-        background-color:#dfb981 ;
+        /* background-image: -webkit-linear-gradient( #fcd883 10%,#DCAB64,#A77C47 ); */
         padding: 1rem ;
-        
+        background-color: rgba(239, 239, 239, 0.953);
     }
     .hire2-button,.hire1-button{
         width: 50%;
@@ -263,6 +262,6 @@ border: 2px solid #fcc45c;
         margin-top: 1rem;
     }
     .hire2-button{
-        color: rgb(29, 29, 41);
+        color: #16191e;
     }
 }
