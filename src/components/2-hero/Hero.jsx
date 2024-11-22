@@ -48,7 +48,7 @@ export default function Hero() {
       <motion.img
       initial={{scale:0, opacity:0}}
         animate={{scale:1, opacity:1}}
-        duration={2}
+        duration={{2}}
         className="hero-img  border" src="/download (11).jpeg"/>
       </div>
       </div>
