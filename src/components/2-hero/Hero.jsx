@@ -45,10 +45,8 @@ export default function Hero() {
       </div>
       <div className="right-section-hero">
      
-      <motion.img
-        initial={{rotate:100}}
-        animate={{rotate:0}}
-        transition={{duration:0.5}}
+      <img
+      
         className="hero-img  border" src="/download (11).jpeg"/>
       </div>
       </div>
