@@ -3,7 +3,7 @@ import { FaLink } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import {motion} from "framer-motion"
 const projects= [
  
   {
@@ -78,9 +78,13 @@ export default function Main() {
      
 
  <section className="main-section  container row">
-       {projectsArr.map((item)=>{
+       {projectsArr.map((item,index)=>{
         return(
-          <div key={item.id} className="card col-lg-4 col-md-6 col-sm-12  projects-card">
+          <motion.div
+          initial={{ opacity: 0, x: 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5, delay: index * 0.2 }}
+          key={item.id} className="card col-lg-4 col-md-6 col-sm-12  projects-card">
           <div className="project-photo ">
              <img className='' src={item.imgUrl}/>
           </div>
@@ -97,7 +101,7 @@ export default function Main() {
           </div>
            
           </div>
-          </div>
+          </motion.div>
           
         )
        })}
