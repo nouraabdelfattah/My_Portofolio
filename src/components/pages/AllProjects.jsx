@@ -6,8 +6,17 @@ import Header from "../1-header/Header";
 import {motion} from "framer-motion"
 const projects= [
  
-  {
+   {
       "id":1,
+  projectName:"Food Delivery website",
+  imgUrl:"/restaurantphoto.PNG",
+  Description:" React JS and API ",
+  githubLink:"https://github.com/weamibrahim/FoodDelivery",
+  deployLink:"https://food-delivery-fg8n.vercel.app/",
+  responsive:"Responsive"
+  },
+ {
+      "id":2,
   projectName:"E-Commerce clothes shop",
   imgUrl:"/ecommerce.PNG",
   Description:" React JS and API ",
@@ -16,7 +25,7 @@ const projects= [
   responsive:"Responsive"
   },
   {
-      "id":2,
+      "id":3,
   projectName:"Gemini-Clone AI",
   imgUrl:"/gemini clone.PNG",
   Description:" React JS and API ",
@@ -25,7 +34,7 @@ const projects= [
   responsive:"Responsive"
   },
   {
-    id:3,
+    id:4,
 projectName:"saba-shopping-cart",
 imgUrl:"/saba-shopping-cart.PNG",
 Description:"JavaScript ",
@@ -35,7 +44,7 @@ responsive:"  Responsive"
 
 } ,
   {
-      id:4,
+      id:5,
       imgUrl:"/cloths-shop.PNG",
   projectName:"Clothes shop website",
   Description:" Bootstrap ",
@@ -44,7 +53,7 @@ responsive:"  Responsive"
   responsive:"Responsive"
   },
   {
-      id:5,
+      id:6,
   projectName:"Interior Design",
   imgUrl:"/interior.PNG",
   Description:"Bootstrap",
@@ -54,7 +63,7 @@ responsive:"  Responsive"
   
   },
    {
-      id:6,
+      id:7,
   projectName:"Solar Landing Page",
   imgUrl:"/solar.PNG",
   Description:" html , css  ",
@@ -64,7 +73,7 @@ responsive:"  Responsive"
   
   },
   {
-    id:7,
+    id:8,
 projectName:"Rose Website",
 imgUrl:"/Rose-Flower-Shop.PNG",
 Description:"html5 , css3  ",
@@ -74,7 +83,7 @@ responsive:" Not responsive"
 
 },
   {
-    id:8,
+    id:9,
 projectName:"Book Store",
 imgUrl:"/Book-store.PNG",
 Description:" html , css  ",
@@ -122,8 +131,18 @@ responsive:" Not responsive"
       }
   ]
   const ReactProjects=[
+    
      {
       "id":1,
+  projectName:"Food Delivery website",
+  imgUrl:"/restaurantphoto.PNG",
+  Description:" React JS and API ",
+  githubLink:"https://github.com/weamibrahim/FoodDelivery",
+  deployLink:"https://food-delivery-fg8n.vercel.app/",
+  responsive:"Responsive"
+  },
+   {
+     "id":2,
   projectName:"E-Commerce clothes shop",
   imgUrl:"/ecommerce.PNG",
   Description:" React JS and API ",
@@ -132,7 +151,7 @@ responsive:" Not responsive"
   responsive:"Responsive"
   },
       {
-          "id":2,
+          "id":3,
       projectName:"Gemini-Clone AI",
       imgUrl:"/gemini clone.PNG",
       Description:" React JS and API ",
