@@ -5,9 +5,18 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import {motion} from "framer-motion"
 const projects= [
- 
-  {
+
+   {
       "id":1,
+  projectName:"Food Delivery website",
+  imgUrl:"/restaurantphoto.PNG",
+  Description:" React JS and API ",
+  githubLink:"https://github.com/weamibrahim/FoodDelivery",
+  deployLink:"https://food-delivery-fg8n.vercel.app/",
+  responsive:"Responsive"
+  },
+  {
+      "id":2,
   projectName:"E-Commerce clothes shop",
   imgUrl:"/ecommerce.PNG",
   Description:" React JS and API ",
@@ -16,7 +25,7 @@ const projects= [
   responsive:"Responsive"
   },
   {
-      "id":2,
+      "id":3,
   projectName:"Gemini-Clone AI",
   imgUrl:"/gemini clone.PNG",
   Description:" React JS and API ",
@@ -25,7 +34,7 @@ const projects= [
   responsive:"Responsive"
   },
   {
-    id:3,
+    id:4,
 projectName:"saba-shopping-cart",
 imgUrl:"/saba-shopping-cart.PNG",
 Description:"JavaScript ",
@@ -35,7 +44,7 @@ responsive:"  Responsive"
 
 } ,
   {
-      id:4,
+      id:5,
       imgUrl:"/cloths-shop.PNG",
   projectName:"Clothes shop website",
   Description:" Bootstrap ",
@@ -44,22 +53,12 @@ responsive:"  Responsive"
   responsive:"Responsive"
   },
   {
-      id:5,
+      id:6,
   projectName:"Interior Design",
   imgUrl:"/interior.PNG",
   Description:"Bootstrap",
   githubLink:"https://github.com/nouraabdelfattah/interior-design",
   deployLink:"https://nouraabdelfattah.github.io/interior-design/",
-  responsive:"Responsive"
-  
-  },
-   {
-      id:6,
-  projectName:"Solar Landing Page",
-  imgUrl:"/solar.PNG",
-  Description:" html , css  ",
-  githubLink:"https://github.com/nouraabdelfattah/solar-landing-page",
-  deployLink:"https://nouraabdelfattah.github.io/solar-landing-page/",
   responsive:"Responsive"
   
   }
